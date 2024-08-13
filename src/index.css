@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.my_table {
+  border-collapse: collapse;
+}
+
+th {
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #fff8f8;
+}
+
+.flex{
+  display: flex;
+}
+.mr-5{
+  margin-right: 5px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.clrRed{
+  color: red;
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #016a70;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #018c94;
+}
+
+.userForm {
+  margin: auto;
+  width: 30%;
+  border-radius: 5px;
+  background-color: #ededed;
+  padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 30px;
+}
+
+.userTable {
+  margin: auto;
+  width: 30%;
+  border-radius: 5px;
+  background-color: #ededed;
+  padding: 20px;
+  font-family: 'Work Sans', sans-serif;
+  overflow-x: auto;
+}
